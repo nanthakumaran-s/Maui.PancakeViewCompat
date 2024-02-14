@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Specialized;
+﻿using System.Collections.Specialized;
 using System.ComponentModel;
-using System.Linq;
 
-namespace Maui.PancakeView
+namespace PancakeView
 {
     public class PancakeView : ContentView, IBorderElement
     {

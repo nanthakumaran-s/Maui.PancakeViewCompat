@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Maui.PancakeView
+﻿namespace PancakeView.MarkupExtensions
 {
     [AcceptEmptyServiceProvider]
     public class ShadowMarkupExtension : BindableObject, IMarkupExtension<DropShadow>

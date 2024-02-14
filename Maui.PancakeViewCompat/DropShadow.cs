@@ -1,7 +1,6 @@
-﻿using System;
-using System.Runtime.CompilerServices;
+﻿using System.Runtime.CompilerServices;
 
-namespace Maui.PancakeView
+namespace PancakeView
 {
     public class DropShadow : BindableObject
     {

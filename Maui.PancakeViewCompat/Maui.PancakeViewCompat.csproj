@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <UseMaui>True</UseMaui>
+        <MauiVersion>8.0.6</MauiVersion>
+        <OutputType>Library</OutputType>
+        <SingleProject>true</SingleProject>
+		
+		<!--Assembly and Namespace info -->
+		<AssemblyName>PancakeView</AssemblyName>
+		<RootNamespace>PancakeView</RootNamespace>
+		<Product>$(AssemblyName) ($(TargetFramework))</Product>
+		<AssemblyVersion>6.0.1</AssemblyVersion>
+		<AssemblyFileVersion>6.0.1</AssemblyFileVersion>
+		<Version>8.0.0</Version>
+		<PackOnBuild>true</PackOnBuild>
+		<NeutralLanguage>en</NeutralLanguage>
+		<LangVersion>default</LangVersion>
+		<DefineConstants>$(DefineConstants);</DefineConstants>
+		<UseFullSemVerForNuGet>false</UseFullSemVerForNuGet>
+		<LangVersion>latest</LangVersion>
+		<PackageProjectUrl>https://github.com/nanthakumaran-s/Maui.PancakeViewCompat</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/nanthakumaran-s/Maui.PancakeViewCompat</RepositoryUrl>
+		<Title>PancakeViewCompat for Maui</Title>
+		<Summary>An extended ContentView for Maui with rounded corners, borders, shadows and more!</Summary>
+		<Description>An extended ContentView for Maui with rounded corners, borders, shadows and more!</Description>
+		<Owners>Nanthakumaran S</Owners>
+		<Authors>Nanthakumaran S</Authors>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageId>PancakeView.Maui</PackageId>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)'=='Debug' ">
+		<DebugType>full</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+		<GenerateDocumentationFile>false</GenerateDocumentationFile>
+	</PropertyGroup>
+  
+	<PropertyGroup Condition=" '$(Configuration)'=='Release' ">
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<DebugType>pdbonly</DebugType>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+	</PropertyGroup>
+  
+	<PropertyGroup>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<EmbedUntrackedSources>true</EmbedUntrackedSources>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+	</PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
+      <PackageReference Include="Microsoft.Maui.Core" Version="$(MauiVersion)" />
+    </ItemGroup>
+
+</Project>

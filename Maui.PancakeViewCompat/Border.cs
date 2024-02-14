@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Specialized;
+﻿using System.Collections.Specialized;
 using System.Runtime.CompilerServices;
-using Microsoft.Maui.Graphics;
 
-namespace Maui.PancakeView
+namespace PancakeView
 {
     public class Border : BindableObject
     {

@@ -1,4 +1,4 @@
-﻿namespace Maui.PancakeView
+﻿namespace PancakeView
 {
     public enum BorderDrawingStyle
     {

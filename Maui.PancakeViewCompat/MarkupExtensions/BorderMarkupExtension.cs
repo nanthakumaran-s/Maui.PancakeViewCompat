@@ -1,4 +1,4 @@
-﻿namespace Maui.PancakeView
+﻿namespace PancakeView.MarkupExtensions
 {
     [AcceptEmptyServiceProvider]
     public class BorderMarkupExtension : BindableObject, IMarkupExtension<Border>

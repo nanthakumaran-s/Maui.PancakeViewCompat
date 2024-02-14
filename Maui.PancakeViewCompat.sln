@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maui.PanckageViewCompat", "Maui.PanckageViewCompat\Maui.PanckageViewCompat.csproj", "{4E0B3C8D-374D-49B4-8348-AD376D3A9D16}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maui.PancakeViewCompat", "Maui.PancakeViewCompat\Maui.PancakeViewCompat.csproj", "{4E0B3C8D-374D-49B4-8348-AD376D3A9D16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

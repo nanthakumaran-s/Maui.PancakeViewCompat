@@ -1,7 +1,8 @@
 ﻿using System.ComponentModel;
 using System.Globalization;
+using PancakeView.TypeConverters;
 
-namespace Maui.PancakeView
+namespace PancakeView
 {
     [TypeConverter(typeof(DashPatternTypeConverter))]
     public struct DashPattern

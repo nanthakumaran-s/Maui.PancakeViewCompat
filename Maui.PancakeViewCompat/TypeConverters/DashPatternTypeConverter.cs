@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Globalization;
 
-namespace Maui.PancakeView
+namespace PancakeView.TypeConverters
 {
     [TypeConverter(typeof(DashPattern))]
     public class DashPatternTypeConverter : IValueConverter
